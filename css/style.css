@@ -1,0 +1,515 @@
+/* null.css start */
+@import "null.css";
+/* null.css stop */
+/* ======================================================== */
+/* fonts style start */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic');
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+@font-face{
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face{
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+} 
+
+/* fonts style stop */
+/* ======================================================== */
+/* container start */
+.container{
+	max-width: 1060px;
+	margin: 0 auto;
+}
+/* container stop */
+/* ======================================================== */
+/* wrapper start */
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+/* wrapper stop */
+/* ======================================================== */
+/* links start */
+.link__index,
+.link__index-2,
+.link__index-3{
+	font-family: "Roboto";
+	font-size: 50px;
+	color: rgba(45, 26, 109, 0.815);
+	box-shadow: 15px 15px 8px 8px rgba(19, 18, 18, 0.863);
+	border-radius: 5px;
+	text-align: center;
+	text-transform: none;
+	text-decoration: none;
+}
+
+.link-1{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.link-2{
+	text-align: center;
+	margin-bottom: 118px;
+}
+
+.link-3{
+	text-align: center;
+	margin: 0 auto 50px;
+}
+/*links stop*/
+/* ========================================================== */
+/* page 1 start */
+.foto__intro{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.foto__intro img{
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.foto__img-1{
+	border-top-left-radius: 30px;
+	border-top: 10px solid black;
+	border-left: 7px solid rgb(104, 33, 33);
+	border-bottom: 3px solid black;
+	border-right: 2px solid black;
+}
+
+.foto__img-2{
+	margin-top: 50px;
+	margin-left: -75px;
+	border-top: 4px dashed rgb(23, 121, 52);
+	border-bottom: 4px dashed rgb(23, 121, 52);
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.foto__img-3{
+	margin-top: 100px;
+	margin-left: -75px;
+	border-bottom-right-radius: 30px;
+	border-bottom: 10px solid black;
+	border-right: 7px solid rgb(104, 33, 33);
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+}
+
+.h1{
+	font-size: 56px;
+	line-height: 1.5;
+	font-family: "Balsamiq Sans";
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	margin: 0 0 100px 0;
+	text-shadow: 20px 20px 12px rgb(8, 8, 8);
+}
+
+.menu{
+	margin-bottom: 100px;
+	text-align: center;
+	font-family: "Roboto";
+}
+
+.menu li{
+	display: inline;
+	margin-right: 20px;
+	font-size: 38px;
+	font-weight: 500;
+	text-decoration: underline;
+	color: darkcyan;
+	text-transform: capitalize;
+}
+
+
+.story__1{
+	font-family: "Lobster";
+	font-size: 30px;
+	color: #313131;
+	line-height: 1.25;
+	text-indent: 50px;
+	text-align: justify;
+	margin-bottom: 40px;
+	text-shadow: -8px 8px 4px rgba(0, 0, 0, 0.575);
+}
+
+.story__yorik{
+	text-align: right;
+	
+}
+
+.story__yorik img{
+	text-align: right;
+	width: 400px;
+	height: 400px;
+	margin: 0 100px 40px 0;
+	border-radius: 50%;
+}
+
+.story__2{
+	font-family: "Yanone Kaffeesatz";
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+	text-shadow: 5px 7px 15px #000;
+	color:rgba(61, 59, 59, 0.76);
+	margin: 0 0 150px 0;
+}
+
+.story__link{
+	color: rgba(9, 9, 75, 0.774);
+	text-decoration: underline;
+}
+
+.story__korpus{
+	margin: 0 0 100px 0;
+}
+
+.story__korpus-1{
+	width: 500px;
+	height: 500px;
+	border: 2px dashed red;
+	border-radius: 25px;
+}
+
+.story__korpus-2{
+	width: 400px;
+	height: 400px;
+	margin-left: -100px;
+	margin-top: -20px;
+	border: 2px dashed red;
+	border-radius: 20px;
+}
+.story__korpus-3{
+	width: 300px;
+	height: 300px;
+	margin-left: -100px;
+	margin-top: -40px;
+	border: 2px dashed red;
+	border-radius: 15px;
+}
+
+.story__3{
+	font-family: "Mulish";
+	font-style: italic;
+	font-size: 40px;
+	line-height: 1.25;
+	font-weight: 700;
+	text-align: justify;
+	max-width: 800px;
+	margin: 0 0 80px auto;
+	overflow: scroll;
+	height: 300px;
+	border: 5px dotted green;
+	padding: 15px;
+}
+
+.story__pets{
+	margin: 0 0 100px 0;
+}
+.story__pets img{
+	border-radius: 25px;
+}
+
+.story__pets-name{
+	font-family: "Montserrat Alternates";
+	font-size: 38px;
+	line-height: 1.25;
+	font-weight: 700;
+	text-align: center;
+	font-style: oblique;
+	margin: 0 0 100px 0;
+}
+
+.story__life-image{
+	text-align: center;
+	margin: 0 0 80px 0;
+}
+
+.story__life-image img{
+	width: 350px;
+	height: 300px;
+	border: 5px solid rgba(85, 4, 17, 0.918);
+}
+
+.story__life-image-1{
+	border-top-left-radius: 50px;
+}
+
+.story__life-image-2{
+	border-bottom-right-radius: 50px;
+}
+
+.story__life-link{
+	font-family: "El Messiri";
+	font-size: 38px;
+	font-weight: 600;
+	text-decoration: underline;
+	color: blue;
+}
+
+.story__life{
+	font-family: "Fira Sans Extra Condensed";
+	font-style: italic;
+	font-size: 38px;
+	line-height: 1.75;
+	text-decoration: underline;
+	text-indent: 50px;
+	text-align: justify;
+	margin: auto 0 100px 0;
+	max-width: 800px;
+}
+
+.story__workaholic-image img{
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+}
+
+.story__workaholic-image{
+	display: inline-block;
+	text-align: center;
+	box-shadow: 35px -35px 15px #000;
+	margin: 0 0 80px 0;
+}
+
+.story__workaholic{
+	font-size: 35px;
+	text-align: right;
+	line-height: 1;
+	color: rgb(73, 71, 71);
+	text-shadow: 5px -5px 8px rgb(10, 231, 76);
+	margin: 0 0 100px 0;
+}
+
+.story__meditation-image{
+	margin: 0 0 100px 0;
+	text-align: center;
+}
+
+.story__meditation-image img{
+	width: 400px;
+	height: 400px;
+}
+
+.story__meditation-image-1{
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 100px;
+}
+
+.story__meditation-image-2{
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 15px;
+}
+
+.story__meditation{
+	font-family: "Pangolin";
+	font-size: 30px;
+	line-height: 2;
+	text-decoration: overline;
+	margin: 0 0 100px 0;
+}
+
+.story__meditation span{
+	text-transform: uppercase;
+}
+
+.story__piople-image{
+	text-align: right;
+	margin-bottom: 50px;
+}
+
+.story__piople{
+	font-family: "Montserrat Alternates";
+	font-size: 33px;
+	font-weight: 400;
+	line-height: 1.25;
+	text-align: justify;
+	text-shadow: 12px 12px 2px rgb(244, 248, 6);
+	text-indent: 75px;
+	margin-bottom: 100px;
+}
+
+.story__story-image{
+	text-align: center;
+	margin-bottom: 80px;
+	
+}
+.story__story-image img{
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.story__story-image-1{
+	box-shadow: -50px -50px 30px black;
+	margin-right: 150px;
+}
+.story__story-image-2{
+	box-shadow: 50px 50px 30px black;
+}
+.story__story{
+	font-family: "CircularStd";
+	font-weight: 700;
+	font-size: 25px;
+	text-align: justify;
+	margin: 0 0 500px 0;
+}
+
+.story__end-img{
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+
+.story__end-img img{
+	width: 500px;
+	height: 500px;
+}
+
+.story__end-img-1{
+	margin-right: -150px;
+	margin-top: -350px;
+	box-shadow: 50px 50px 30px black;
+}
+
+.story__end-img-2{
+	box-shadow: -50px 50px 30px black;
+}
+
+.story__end{
+	font-family: "Roboto";
+	font-weight: 600;
+	font-style: italic;
+	font-size: 32px;
+	line-height: 1.25;
+	text-align: center;
+	border: 7px double brown; 
+	margin-bottom: 100px;
+}
+
+.story__end p{
+	margin-bottom: 25px;
+}
+
+.story__avtor{
+	margin-bottom: 100px;
+	text-decoration: underline;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1.25;
+	color: #313131;
+}
+/* page 1 stop */
+/* ======================================================== */
+/* page 2 start */
+.macho{
+	font-family: "CircularStd";
+}
+
+.first{
+	color: #313131;
+}
+
+.second{
+	color: #5F5F5F;
+}
+
+.macho__title{
+	text-align: center;
+	font-size: 65px;
+	line-height: 1.3;
+	margin: 140px 0 20px 0;
+	font-weight: 400;
+}
+
+.macho__subtitle{
+	font-size: 20px;
+	line-height: 1.25;
+	text-align: center;
+	max-width: 750px;
+	margin: 0 auto 224px;
+}
+
+.service__title{
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 1.3;
+	opacity: 0.88;
+	text-align: left;
+	margin: 0 0 20px 0;
+}
+
+.service__text{
+	font-size: 18px;
+	line-height: 1.55;
+	max-width: 508px;
+	margin-bottom: 125px;
+}
+
+.service__name{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.3;
+	margin: 0 0 5px 0;
+	opacity: 0.88;
+}
+
+.service__position{
+	font-size: 18px;
+	line-height: 1.3;
+	color: #B8B8B8;
+	margin: 0 0 150px 0;
+}
+
+.service__image{
+	margin: 0 0 141px 150px;
+	text-align: left;
+}
+
+/* page 2 stop */
